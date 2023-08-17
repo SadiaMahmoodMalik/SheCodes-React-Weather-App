@@ -11,11 +11,11 @@ export default function App() {
         <div className="footer">
           <p className="info-text">
             <a
-              href="https://github.com/SadiaMahmoodMalik"
+              href="https://github.com/SadiaMahmoodMalik/SheCodes-React-Weather-App/tree/master"
               rel="noreferrer"
               target="_blank"
             >
-              Code
+              Code Link
             </a>{" "}
             by{" "}
             <a
