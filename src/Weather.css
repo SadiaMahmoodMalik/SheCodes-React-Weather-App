@@ -1,0 +1,266 @@
+.card {
+  max-width: 500px;
+  height: 800 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  margin: 0 auto !important;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+.morning {
+  background: url("/src/images/morning.jpg");
+}
+
+.midday {
+  background: url("/src/images/afternoon.jpg");
+}
+
+.afternoon {
+  background: url("/src/images/evening.jpg");
+}
+
+.evening {
+  background: url("/src/images/night.jpg");
+}
+
+.card-title {
+  font-size: 15px;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.form-control {
+  max-width: 300px;
+  border: none !important;
+  border-radius: 10px 0px 0px 10px !important;
+}
+
+.btn-primary {
+  border-radius: 0px 10px 10px 0px !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.current-date {
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.city {
+  text-align: center;
+  font-size: 35px;
+  line-height: 0.8;
+}
+
+.temperature-container {
+  padding-top: 10px;
+}
+
+.temperature {
+  position: relative;
+  line-height: 1;
+  font-size: 55px;
+}
+.unit.celcius {
+  font-size: 15px;
+  position: relative;
+  bottom: 24px;
+  padding-left: 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+.unit.celcius.active {
+  font-size: 25px;
+  position: relative;
+  bottom: 18px;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+.unit.farenheit {
+  font-size: 15px;
+  position: relative;
+  right: 20px;
+  top: 2px;
+  color: white;
+  text-decoration: underline;
+}
+.unit.farenheit.active {
+  position: relative;
+  font-size: 25px;
+  right: 13px;
+  top: 2px;
+  color: white;
+  text-decoration: none;
+}
+.unit:hover {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+.weather-icon {
+  display: block;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.weather-description {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+ul {
+  padding-top: 20px;
+  padding-left: 80px;
+}
+li {
+  list-style: none;
+}
+
+.loading {
+  color: black;
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    height: 600 !important;
+    max-width: 400px;
+    border-radius: 10px !important;
+    margin: 0 auto !important;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.2);
+    background-size: 400px;
+  }
+
+  .card-title {
+    font-size: 12px;
+  }
+
+  form {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .form-control {
+    max-width: 200px;
+
+    border-radius: 5px 0px 0px 5px !important;
+  }
+
+  .btn-primary {
+    border-radius: 0px 5px 5px 0px !important;
+  }
+
+  .current-date {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .city {
+    text-align: center;
+    font-size: 25px;
+    line-height: 0.8;
+  }
+
+  .temperature-container {
+    padding-top: 10px;
+  }
+
+  .temperature {
+    position: relative;
+    line-height: 1;
+    font-size: 35px;
+  }
+  .unit.celcius {
+    font-size: 12px;
+    position: relative;
+    bottom: 17px;
+    padding-left: 8px;
+  }
+
+  .unit.celcius.active {
+    font-size: 18px;
+    position: relative;
+    bottom: 12px;
+  }
+  .unit.farenheit {
+    font-size: 12px;
+    position: relative;
+    right: 16px;
+    top: 2px;
+  }
+  .unit.farenheit.active {
+    position: relative;
+    font-size: 18px;
+    right: 13px;
+    top: 2px;
+  }
+
+  .weather-icon {
+    display: block;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  canvas {
+    width: 50px;
+    height: 50px;
+  }
+
+  .weather-description {
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  ul {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    height: 800 !important;
+    max-width: 600px;
+    border-radius: 10px !important;
+    margin: 0 auto !important;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.2);
+    background-size: 400px;
+  }
+
+  .weather-icon {
+    display: block;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  canvas {
+    width: 50px;
+    height: 50px;
+  }
+
+  .weather-description {
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  ul {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+}
